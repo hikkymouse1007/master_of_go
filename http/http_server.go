@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"reflect"
 )
 
 func main() {
@@ -10,6 +11,6 @@ func main() {
 		Addr: "127.0.0.01:8080",
 		Handler: nil,
 	}
-	fmt.Println(server)
+	fmt.Println(reflect.TypeOf(server))
 	server.ListenAndServe()
 }
