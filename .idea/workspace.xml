@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9a7127-b8a3-4f3c-aa0a-2f9bea9ee679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/http/advanced_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/https/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/https/https.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/https/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/https/self_ssl_and_secret_key.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/http_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/http_server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,26 +109,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636732080442">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636986827518">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="549" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636732080442" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1636689971278">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636986827518" />
+    <state x="549" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636987747205">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636689971278" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1636689971276">
+    <state x="549" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636987747205" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1636986728899">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636689971276" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1636689971275">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636986728899" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1636986728897">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636689971275" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1636689971277">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636986728897" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1636986728897">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636689971277" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636986728897" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1636986728898">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.35.1920.1080@0.0.1680.1050" timestamp="1636986728898" />
     <state x="541" y="251" width="597" height="548" key="find.popup" timestamp="1636689133602">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
