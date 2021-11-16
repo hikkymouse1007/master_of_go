@@ -2,9 +2,12 @@ package main
 
 import (
 	"crypto/rand"
+	"crypto/rsa"
 	"crypto/x509"
+	"encoding/pem"
 	"log"
 	"net"
+	"os"
 	"time"
 
 	//"crypto/x509"
@@ -48,5 +51,18 @@ func main() {
 		ExtKeyUsage: []x509.ExtKeyUsage{x509.ExtKeyUsageServerAuth},
 		IPAddresses: []net.IP{net.ParseIP("127.0.0.1")},
 	}
-	fmt.Println(template)
+	fmt.Printf(" template:", template)
+
+	pk, _ := rsa.GenerateKey(rand.Reader, 2048)
+	fmt.Println("pk:", pk)
+	fmt.Println("pk_pub:", &pk.PublicKey)
+
+	derBytes, _ := x509.CreateCertificate(rand.Reader, &template, &template, &pk.PublicKey, pk)
+	certOut, _ := os.Create("cert.pem")
+	pem.Encode(certOut, &pem.Block{Type: "CERTIFICATE", Bytes: derBytes})
+	certOut.Close()
+
+	keyOut, _ := os.Create("key.pem")
+	pem.Encode(keyOut, &pem.Block{Type: "RSA PRIVATE KEY", Bytes: x509.MarshalPKCS1PrivateKey(pk)})
+	keyOut.Close()
 }
