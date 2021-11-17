@@ -30,6 +30,10 @@ type WorldHandler struct {
 }
 
 func (h *WorldHandler) ServeHTTP (w http.ResponseWriter, r *http.Request) {
+	fmt.Println("request", r)
+	fmt.Println("&request", &r)
+	fmt.Println("response writer", w)
+	fmt.Println("&response writer", &w)
 	fmt.Fprintf(w, "world")
 }
 
