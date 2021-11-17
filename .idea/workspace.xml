@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c9a7127-b8a3-4f3c-aa0a-2f9bea9ee679" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/handler/multi_handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/single_handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/https/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/https/cert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/https/key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/https/key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/https/self_ssl_and_secret_key.go" beforeDir="false" afterPath="$PROJECT_DIR$/https/self_ssl_and_secret_key.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +58,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/http" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/http" />
     </key>
   </component>
   <component name="RunManager">
